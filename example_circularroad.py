@@ -70,7 +70,7 @@ if not human_controller:
         if np.random.rand() < lp: c1.set_control(0.2, 0.1)
         else: c1.set_control(-0.1, 0.1)
         # edit upto here
-        
+        ## put the codes here that Prof Qi uploads.
         
         w.tick() # This ticks the world for one time step (dt second)
         w.render()
