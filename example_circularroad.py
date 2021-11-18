@@ -49,7 +49,7 @@ w.add(c1)
 w.render() # This visualizes the world we just constructed.
 
 
-
+### edit after this for q3
 if not human_controller:
     # Let's implement some simple policy for the car c1
     desired_lane = 1
@@ -69,6 +69,8 @@ if not human_controller:
         
         if np.random.rand() < lp: c1.set_control(0.2, 0.1)
         else: c1.set_control(-0.1, 0.1)
+        # edit upto here
+        
         
         w.tick() # This ticks the world for one time step (dt second)
         w.render()
